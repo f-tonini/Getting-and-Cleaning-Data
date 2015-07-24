@@ -6,6 +6,9 @@
 #5) From the data set in step 4, creates a second, independent tidy data set with the average 
 #   of each variable for each activity and each subject.
 
+#let's unzip the dataset folder inside the working directory
+unzip("getdata-projectfiles-UCI HAR Dataset.zip")
+
 ##let's start by reading in the separate files we need to combine within the TRAIN and TEST folders:
 subject.train <- scan("./UCI HAR Dataset/Train/subject_train.txt")
 #length(subject.train)
