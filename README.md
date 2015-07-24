@@ -1,15 +1,17 @@
 # Getting-and-Cleaning-Data
-This repo contains the Rscript used for the final project of the "Getting and Cleaning Data" course, Data Science Signature Track (Coursera).
+This repo contains the Rscript used for the final project of the "Getting and Cleaning Data" course, Data Science Signature Track (Coursera). The zipped folder contains the datasets necessary for the analysis.
 
 ## Description of the script:
 
-The script is split into 5 main tasks:
+First of all we use the `unzip()` function to unzip our large data folder into our working directory. It is preferrable to do this instead of keeping the unzipped data on github, given the large size of the files.
 
-1.Merge the training and the test sets to create one data set.
-2.Extract only the measurements on the mean and standard deviation for each measurement. 
-3.Use descriptive activity names to name the activities in the data set
-4.Appropriately label the data set with descriptive variable names. 
-5.From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
+The script is divided into 5 main tasks:
+
+1. Merge the training and the test sets to create one data set.
+2. Extract only the measurements on the mean and standard deviation for each measurement. 
+3. Use descriptive activity names to name the activities in the data set
+4. Appropriately label the data set with descriptive variable names. 
+5. From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ##1. Merge the training and the test sets to create one data set.
 
